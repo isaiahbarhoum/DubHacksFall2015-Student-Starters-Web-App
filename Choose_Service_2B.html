@@ -29,7 +29,10 @@
 
 	<body>
 		<script>
-			var myDataRef = new Firebase('https://z1tjvfxoh01.firebaseio-demo.com/');
+			var myFirebaseRef = new Firebase('https://luminous-torch-6207.firebaseio.com');
+			myFirebaseRef.child("Name_Page/Tom/Hometown").on("value", function(snapshot) {
+  alert(snapshot.val());
+});
 		</script>
 		<div>
 			<div style="margin-bottom:0px; padding:0px"class="jumbotron">
