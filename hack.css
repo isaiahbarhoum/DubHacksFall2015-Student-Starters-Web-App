@@ -52,8 +52,8 @@ input:focus, textarea:focus {
 	background:white;
 	width:100px;
 	height:40px;
-	border:2px solid #4169E1;
-	color:#4169E1;
+	border:2px solid black;
+	color:black;
 	transition:250ms;
 	position:relative;
 	left:175px;
@@ -61,7 +61,7 @@ input:focus, textarea:focus {
 }
 
 #submit:hover {
-	background:#4169E1;
+	background:black;
 	color:white;
 	transition:250ms;
 }
@@ -151,6 +151,17 @@ textarea {
 	top:50px;
 }
 
+h3 {
+	font-family:'Oleo Script';
+	text-align:center;
+	font-size:50px;
+}
+
+nav p{
+	text-align:center;
+	font-size:15px;
+}
+
 .centerpiece i{
 	font-size:30px;
 	margin:10px;
@@ -169,13 +180,13 @@ textarea {
 	height:45px;
 	position:relative;
 	top:45px;
-	border:2px solid #4169E1;
-	color:#4169E1;
+	border:2px solid black;
+	color:black;
 	transition:500ms;
 }
 
 .about .btn-primary:hover{
-	background:#4169E1;
+	background:black;
 	color:white;
 	transition:500ms;
 }
