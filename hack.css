@@ -247,28 +247,3 @@ nav p{
 .row p{
 	text-align:center;
 }
-
-
-
-
-
-
-
-<header>
-				<h1><center>Student Starters</center></h1>
-			</header>
-			<nav>
-				<table border="1" style="width:100%">
-					<tr>
-						<td>Name</td>
-						<td>Price of Specific Package</td>
-						<td>Avg. Rating</td>
-						<td>Hometown</td>
-						<td>Age</td>
-					</tr>
-				</table>
-			</nav>
-
-			<div>
-
-			</div>
