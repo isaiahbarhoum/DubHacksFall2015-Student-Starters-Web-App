@@ -125,7 +125,7 @@ textarea {
 }
 
 .nav a {
-	color: black;
+	color: white;
 	text-decoration:none;
 	transition:500ms;
 }
@@ -187,6 +187,7 @@ nav p{
 	border:2px solid black;
 	color:black;
 	transition:500ms;
+	border-radius:0;
 }
 
 .btn-primary:hover{
