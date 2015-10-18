@@ -36,7 +36,7 @@
     			</h3>
     		</div>
      	</div>
-			<nav style="position:relative; top:50px; margin-bottom:100px">
+			<nav id="changeme" style="position:relative; top:50px; margin-bottom:100px">
 				<p>
 					<h3>Package #1</h3>
 					<p>Full detail package</p>
@@ -52,6 +52,21 @@
 					</a>
 				</p>
 			</nav>
+			<script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
+			<script type="text/javascript">
+				var firebaseServicesRef = new Firebase("https://luminous-torch-6207.firebaseio.com/");
+				firebaseServicesRef.child('services').on('value', function(snapshot) {
+					var html = snapshot.val().map(renderService).join('');
+					document.getElementById('changeme').innerHTML = html;
+				});
+
+				function renderService(service) {
+					var name = service.name;
+					var description = service.description;
+					var html = '<p><h3>' + name + '</h3>' + '<p>' + description + '</p><a href="Student_Starters_4A.html?service=' + name + '"><button type="button" class="btn btn-primary" style="position:relative; left:585px">Choose</button></a></p>';
+					return html;
+				}
+
+			</script>
 	</body>
 </html>
-
