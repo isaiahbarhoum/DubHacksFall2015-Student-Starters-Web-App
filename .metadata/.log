@@ -54,3 +54,6 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/abhijitp
 
 !ENTRY com.aptana.js.debug.core 4 0 2015-10-18 08:45:51.466
 !MESSAGE Configured browser /Applications/Google Chrome.app does not support debugging. Currently only Firefox is supported.
+
+!ENTRY com.aptana.php.debug.epl 4 4 2015-10-18 11:00:03.100
+!MESSAGE class org2.eclipse.php.internal.debug.core.xdebug.dbgp.session.DBGpSession : Unexpected null from readResponse waiting for Init
