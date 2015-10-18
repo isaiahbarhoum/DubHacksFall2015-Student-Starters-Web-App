@@ -16,7 +16,7 @@ label {
     display:block;
     margin-top:20px;
     letter-spacing:2px;
-    color:#4169E1;
+    color:black;
 }
 
 /* Centre the page */
@@ -174,7 +174,7 @@ nav p{
 	transition:500ms;
 }
 
-.about .btn-primary{
+.btn-primary{
 	background:white;
 	width:100px;
 	height:45px;
@@ -185,7 +185,7 @@ nav p{
 	transition:500ms;
 }
 
-.about .btn-primary:hover{
+.btn-primary:hover{
 	background:black;
 	color:white;
 	transition:500ms;
@@ -226,7 +226,7 @@ nav p{
 .container p{
 	font-size:20px;
 	font-weight: 100; 
-	color:#243B7E;
+	color:black;
 	font-family:'Futura';
 	margin-bottom:20px;
 }
