@@ -1,0 +1,222 @@
+@font-face{
+    font-family: "MasterPlan";
+    src: url('MASTERPLAN___.ttf');
+}
+
+@font-face{
+	font-family: "Futura";
+	src: url('ProximaNova-Light.otf');
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+    color:#4169E1;
+}
+
+/* Centre the page */
+.body {
+    display:block;
+    margin:0 auto;
+    width:576px;
+}
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+#submit {
+	background:white;
+	width:100px;
+	height:40px;
+	border:2px solid #4169E1;
+	color:#4169E1;
+	transition:250ms;
+	position:relative;
+	left:175px;
+	top:20px;
+}
+
+#submit:hover {
+	background:#4169E1;
+	color:white;
+	transition:250ms;
+}
+textarea {
+	height:213px;
+	background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+
+.jumbotron {
+	background: url('SEABLUR.gif');
+	background-size:contain;
+	height: 653px;
+}
+
+.banner {
+	background-color:#4169E1;
+	height: 400px;
+}
+
+.banner h1{
+	text-align:center;
+	color: white;
+	margin-top:0px;
+	font-size:80px;
+	top: 35px;
+	letter-spacing:0.05em;
+}
+
+
+.jumbotron h1 {
+	text-align:center;
+	color: white;
+	margin-top:0px;
+	font-size:80px;
+	top: 35px;
+	letter-spacing:0.05em;
+}
+
+.jumbotron h2 {
+	font-size:32px;
+	top:0px;
+	left:15px;
+	color:white;
+	margin:0px;
+}
+
+.jumbotron p{
+	text-align:center;
+	color: white;
+}
+
+.nav li {
+	display: inline;
+	position: relative;
+	left: 700px;
+	margin-left: 30px;
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:100;
+	letter-spacing:0.1em;
+}
+
+.nav a {
+	color: white;
+	text-decoration:none;
+	transition:500ms;
+}
+
+.nav a:hover{
+	color:#4169E1;
+	transition:500ms;
+}
+
+.centerpiece p{
+	font-size:135px;
+	font-weight:800;
+	text-align:center;
+	margin-bottom:0px;
+	height:120px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+.centerpiece a{
+	position:relative;
+	left:530px;
+	top:50px;
+}
+
+.centerpiece i{
+	font-size:30px;
+	margin:10px;
+	color:#F5F5DC;
+	transition:500ms;
+}
+
+.centerpiece i:hover{
+	color:#4169E1;
+	transition:500ms;
+}
+
+
+.about .btn-primary{
+	background:white;
+	width:100px;
+	height:45px;
+	position:relative;
+	top:45px;
+	border:2px solid #4169E1;
+	color:#4169E1;
+	transition:500ms;
+}
+
+.about .btn-primary:hover{
+	background:#4169E1;
+	color:white;
+	transition:500ms;
+}
+
+.centerpiece img{
+	display:inline-block;
+}
+
+.bottom li {
+	display:inline;
+	position: relative;
+	left:325px;
+	margin-left: 30px;
+	top:125px;
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:100;
+	letter-spacing:0.1em;
+}
+
+.bottom a {
+	color: white;
+	text-decoration:none;
+	transition:500ms;
+}
+
+.bottom i{
+	font-size:30px;
+	margin:10px;
+	color:white;
+	transition:500ms;
+	position:relative;
+	top:175px;
+	left:40px;
+}
+
+.container p{
+	font-size:20px;
+	font-weight: 100; 
+	color:#243B7E;
+	font-family:'Futura';
+	margin-bottom:20px;
+}
+
+.container label{
+	font-family: 'Futura';
+}
